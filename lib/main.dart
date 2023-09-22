@@ -184,6 +184,15 @@ class TodoItem extends StatelessWidget {
             removeTodo(todo);
           },
         ),
+        IconButton(
+          iconSize: 30,
+          icon: const Icon(
+            Icons.edit,
+            color: Colors.red,
+          ),
+          alignment: Alignment.centerRight,
+          onPressed: () {},
+        ),
       ]),
     );
 
